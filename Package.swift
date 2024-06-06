@@ -7,7 +7,6 @@ let package: Package  = Package(
     targets: [
         .target(
             name: "CCUDD", 
-            dependencies: [], 
-            path: "Sources"),
+            dependencies: [])
     ]
 )
